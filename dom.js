@@ -9,4 +9,5 @@ h1.className = "coolTitle";
 
 // add class to li (classList)
 document.querySelector("li").classList.add("coolTitle");
-
+document.querySelector("li").classList.remove("coolTitle");
+document.querySelector("li").classList.add("done");
