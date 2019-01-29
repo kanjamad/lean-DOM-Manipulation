@@ -12,3 +12,6 @@ h1.className = "coolTitle";
 document.querySelector("li").classList.remove("coolTitle");
 // classList.toggle => useful if I want to turn somthing on off back and forth
 document.querySelector("li").classList.toggle("done");
+
+// innerHTML
+document.querySelector("p").innerHTML = "<strong>Everythings will be done today </strong> "
